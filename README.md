@@ -53,13 +53,7 @@ Cool huh?
 
 2.- Install VirtualBox: https://www.virtualbox.org/wiki/Downloads . I have tested it with ```VirtualBox 4.2.12```. Earlier versions are known to have problems.
 
-3.- Adjust the Vagrant configuration file ( ```Vagrantfile``` ) to reflect the location of your local data folder.
-
-```bash
-config.vm.synced_folder "/Users/rburhum/Data/navteq", "/data"
-```
-
-4.- Start vagrant
+3.- Start vagrant
 
 ```bash
 vagrant plugin install vagrant-vbguest
