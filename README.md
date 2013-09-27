@@ -65,7 +65,6 @@ You are ready to go! You can now ssh into the VM which has the system already co
  ```bash
  vagrant ssh
  ```
- 
 
 
 ## Tips
@@ -74,7 +73,7 @@ You are ready to go! You can now ssh into the VM which has the system already co
 that has already been configured. Connect using:
 
 ```bash
-psql -U nvidia -W nvidia-maptools -h 127.0.0.1 -p 5433
+psql -U dbuser -W dbuser-db -h 127.0.0.1 -p 5433
 ```
 
 
